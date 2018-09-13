@@ -1,0 +1,10 @@
+1. Department
+2. Category
+3. Users
+4. Staff
+5. Student
+6. Idea
+7. Likes
+8.Favourite
+9. Comment
+10. Reply

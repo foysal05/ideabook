@@ -1,0 +1,16 @@
+SELECT COUNT(id),d_name  FROM idea INNER JOIN student on idea.idea_author_id=student.std_id INNER JOIN department on student.department_id=department.d_id 
+
+
+
+
+SELECT MAX(counted) FROM
+(SELECT COUNT(v_id) as counted,idea_id FROM VIEW as v INNER JOIN idea as i on v.idea_id=i.id where i.category_id=15 GROUP BY v.idea_id ) as Top_Idea
+
+
+QAC Email
+SELECT email from idea INNER JOIN student on idea.idea_author_id=student.std_id INNER JOIN department on student.department_id=department.d_id INNER JOIN staff on department.d_id=staff.department_id INNER JOIN users on staff.s_id=users.uid
+
+
+Most Likes:
+
+SELECT pid, (sum(`like`) - sum(unlike)) as mostLikes From likes group by pid order by (sum(`like`) - sum(unlike)) desc limit 1

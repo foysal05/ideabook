@@ -1,0 +1,1 @@
+SELECT COUNT(idea_author_id),department from (SELECT idea_author_id,department from idea inner join users on idea.idea_author_id=users.uid inner join student on users.uid=student.std_id  group by idea_author_id) AS SUBQUERY GROUP BY department

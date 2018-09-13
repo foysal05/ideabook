@@ -1,0 +1,13 @@
+Your API Key
+This is a reCAPTCHA Mailhide API key for your use. Note that we have no way of recovering your private key if you lose it. If you lose your key, you can just come back here and generate a new one.
+
+Public Key: 010FrBMCNuiXRnOvaabcKVYQ==
+
+Private Key: 2af4ab53149c3217dd30dc14015bc58e
+
+Mailhide Home
+
+API Resources
+Mailhide API. Documents the protocol used by Mailhide.
+Libraries. Many reCAPTCHA libraries make it easy to use Mailhide in languages like PHP, Python, Perl and Ruby.
+| FAQ | Terms 
